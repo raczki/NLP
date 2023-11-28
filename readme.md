@@ -31,8 +31,5 @@ Utilizando Gensim y el libro "Game of Thrones", conseguimos:
 
 ## Desafío 4: RNN - Predicción de la próxima palabra
 
-El último desafío nos introdujo en las Redes Neuronales Recurrentes (RNN) y su aplicación en la predicción de la próxima palabra en X. En este desafío, logramos:
-
-- **Construir un modelo de RNN:** Capaz de generar predicciones de palabras en contexto.
-- **Ganar experiencia en la generación de texto basada en RNN:** Y en la modelización del contexto en NLP.
+El último desafío nos introdujo en las Redes Neuronales Recurrentes (RNN) y su aplicación en la predicción de la próxima palabra en X. En este desafío, logramos construir un modelo de RNN capaz de generar predicciones de palabras en contexto.
 
