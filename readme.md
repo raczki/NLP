@@ -1,3 +1,5 @@
+![Visualizacion](banner.png)
+
 # Desafíos de Procesamiento de Lenguaje Natural (NLP) - Especialización en Inteligencia Artificial (FIUBA)
 
 **Autor:** Karen Raczkowski
@@ -31,5 +33,27 @@ Utilizando Gensim y el libro "Game of Thrones", conseguimos:
 
 ## Desafío 4: RNN - Predicción de la próxima palabra
 
-El último desafío nos introdujo en las Redes Neuronales Recurrentes (RNN) y su aplicación en la predicción de la próxima palabra en X. En este desafío, logramos construir un modelo de RNN capaz de generar predicciones de palabras en contexto.
+El siguiente desafío se exploran las Redes Neuronales Recurrentes (RNN) aplicadas a la predicción de palabras en un contexto dado. En este caso, se utilizó un dataset que contiene diálogos de Los Simpson.
+
+- **Preprocesamiento de datos:** Se realizó la conversión de oraciones a secuencias de tokens y se ajustó su tamaño para alimentar el modelo.
+- **Modelado y rendimiento:** El modelo se entrenó y validó para evaluar su precisión en la tarea de predicción de palabras.
+
+![Grafico](Ejercicio%204/grafico.png)
+
+El modelo muestra un aumento constante en la precisión de entrenamiento. No obstante, la precisión de validación se estanca, sugiriendo un posible sobreajuste. Se recomiendan estrategias como la regularización, el dropout, la detención temprana y el ajuste de hiperparámetros para mejorar la generalización del modelo.
+
+- **Conclusiones:** El análisis del rendimiento del modelo sugiere la necesidad de mejorar la generalización para prevenir el sobreajuste. Se propone explorar técnicas adicionales para optimizar la precisión en datos no vistos.
+
+## Desafío 5: Sentiment Analysis con Embeddings + LSTM
+
+El ejercicio se centra en el análisis de sentimientos a partir de críticas de compradores de ropa. El sistema está diseñado para determinar automáticamente la evaluación del comprador, traducida en una puntuación de estrellas para el producto, basándose en el contenido textual de sus críticas. Construimos y entrenamos un modelo secuencial que utiliza:
+
+* Capas de Embedding para generar representaciones vectoriales de las palabras.
+* Capas LSTM para capturar las dependencias a largo plazo en los datos de texto.
+* Una estructura que incluye capas de Dropout para mitigar el sobreajuste.
+
+## Desafío 6: LSTM Bot QA
+
+
+
 
