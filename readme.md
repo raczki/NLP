@@ -54,6 +54,18 @@ El ejercicio se centra en el análisis de sentimientos a partir de críticas de 
 
 ## Desafío 6: LSTM Bot QA
 
+Este ejercicio se enfoca en desarrollar un Bot de Respuesta Automática (QA) basado en redes LSTM. El objetivo es crear un bot que interactúe en inglés, basándose en datos del desafío ConvAI2. 
+
+![Visualizacion](ej6.png)
+
+![Grafico](Ejercicio%206/encoder_plot.png)
+
+![Grafico](Ejercicio%206/decoder_plot.png)
+
+![Grafico](Ejercicio%206/model_plot.png)
+
+El bot está capacitado para generar respuestas relevantes a preguntas formuladas por los usuarios. El proyecto representa una aplicación práctica de técnicas avanzadas en PLN y aprendizaje automático para la creación de un chatbot interactivo.
+
 
 
 
