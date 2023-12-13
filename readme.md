@@ -40,8 +40,6 @@ El siguiente desafío se exploran las Redes Neuronales Recurrentes (RNN) aplicad
 
 ![Grafico](Ejercicio%204/grafico.png)
 
-El modelo muestra un aumento constante en la precisión de entrenamiento. No obstante, la precisión de validación se estanca, sugiriendo un posible sobreajuste. Se recomiendan estrategias como la regularización, el dropout, la detención temprana y el ajuste de hiperparámetros para mejorar la generalización del modelo.
-
 - **Conclusiones:** El análisis del rendimiento del modelo sugiere la necesidad de mejorar la generalización para prevenir el sobreajuste. Se propone explorar técnicas adicionales para optimizar la precisión en datos no vistos.
 
 ## Desafío 5: Sentiment Analysis con Embeddings + LSTM
@@ -64,7 +62,6 @@ Este ejercicio se enfoca en desarrollar un Bot de Respuesta Automática (QA) bas
 
 ![Grafico](Ejercicio%206/model_plot.png)
 
-El bot está capacitado para generar respuestas relevantes a preguntas formuladas por los usuarios. El proyecto representa una aplicación práctica de técnicas avanzadas en PLN y aprendizaje automático para la creación de un chatbot interactivo.
 
 
 
